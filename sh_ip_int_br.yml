@@ -5,7 +5,7 @@
 
   tasks:
     - name: Show ip
-      ios_command:
+      iosxr_command:
         commands:
           - show ip int brief
       register: output
